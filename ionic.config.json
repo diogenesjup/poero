@@ -1,0 +1,7 @@
+{
+  "name": "com.diogenesjunior.poero",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}

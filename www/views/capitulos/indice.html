@@ -1,0 +1,43 @@
+<h1 class="titulo-sessoes">Capítulos:</h1>
+
+                      <!-- CAPITULOS -->
+                      <div class="capitulos">
+
+
+                         <!-- CAPITULO -->
+                         <div class="capitulo capitulo1" data-wow-iteration="infinite" data-wow-duration="500ms">
+                            <a href="javascript:void(0)" onclick="app.capitulo(1)" title="Ver esse capítulo">
+                                01
+                            </a>
+                         </div>
+                         <!-- CAPITULO -->
+
+                         <!-- CAPITULO -->
+                         <div class="capitulo capitulo2">
+                            <a href="javascript:void(0)" onclick="app.capitulo(2)" title="Ver esse capítulo">
+                                02
+                            </a>
+                         </div>
+                         <!-- CAPITULO -->
+
+                         <!-- CAPITULO -->
+                         <div class="capitulo capitulo3">
+                            <a href="javascript:void(0)" onclick="app.capitulo(3)" title="Ver esse capítulo">
+                                03
+                            </a>
+                         </div>
+                         <!-- CAPITULO -->
+
+                       
+
+
+
+                      </div>
+                      <!-- CAPITULOS -->
+
+
+                      <script type="text/javascript">
+                         if(localStorage.getItem("ultimoCapitulo")==null){
+                               $(".capitulo1").addClass("wow pulse");
+                           }
+                      </script>
