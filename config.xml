@@ -41,22 +41,6 @@
     
     <preference name="android-minSdkVersion" value="29" />
     <preference name="android-targetSdkVersion" value="32" />
-   
-    <plugin name="cordova-plugin-android-permissions" />
- 
-    <plugin name="cordova-plugin-statusbar" />
-
-    <plugin name="cordova-plugin-wkwebview-engine" />
-    <plugin name="cordova-plugin-wkwebview-file-xhr"  source="npm" /> 
-    
-    <preference name="WKWebViewOnly" value="true" />
-    <feature name="CDVWKWebViewEngine">
-       <param name="ios-package" value="CDVWKWebViewEngine" />
-    </feature>
-
-    <!-- CORRIGINDO PROBLEMAS ANDROID X -->
-    <plugin name="cordova-plugin-androidx" />
-    <plugin name="cordova-plugin-androidx-adapter" />
 
     <icon src="www/assets/images/icones/225.png" />
 
