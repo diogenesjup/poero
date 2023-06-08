@@ -89,7 +89,7 @@
     <allow-navigation href="*" />
     <allow-intent href="*" />
 
-    <plugin name="cordova-plugin-whitelist" version="1.3.4" />
+    <!--<plugin name="cordova-plugin-whitelist" version="1.3.4" />-->
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
