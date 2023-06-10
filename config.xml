@@ -55,8 +55,8 @@
     </feature>
 
     <!-- CORRIGINDO PROBLEMAS ANDROID X -->
-    <plugin name="cordova-plugin-androidx" />
-    <plugin name="cordova-plugin-androidx-adapter" />
+    <!--<plugin name="cordova-plugin-androidx" />-->
+    <!--<plugin name="cordova-plugin-androidx-adapter" />-->
 
     <icon src="www/assets/images/icones/225.png" />
 
