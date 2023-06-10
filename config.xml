@@ -14,7 +14,7 @@
         Diogenes Junior
     </author>
     
-    <engine name="android" spec="^6.0.0" />
+    <engine name="android" spec="^8.0.0" />
 
     <preference name="permissions"                value="none"/>
     <preference name="orientation"                value="portrait" />       
@@ -50,6 +50,35 @@
 
     <plugin name="cordova-plugin-wkwebview-engine" />
     <plugin name="cordova-plugin-wkwebview-file-xhr" /> 
+
+
+
+    <!--<plugin name="cordova-plugin-camera" spec="~2.4.1"  />--> <!--spec="~2.4.1"  -->
+    <!-- <plugin name="cordova-plugin-file"   />   -->
+    <!--<plugin name="cordova-plugin-file-transfer" spec="~1.6.1" /> --> <!-- spec="~1.6.1"  -->
+    <!--<plugin name="cordova-plugin-media-capture" />-->
+    <plugin name="cordova-plugin-android-permissions" />
+    <!--<preference name="android-build-tool" value="gradle" />-->
+    
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-statusbar" />
+
+    <plugin name="cordova-plugin-x-socialsharing" />
+    <feature name="SocialSharing">
+      <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    
+    <plugin name="cordova-plugin-ionic-webview" />
+
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="Scheme" value="https" />
+    <preference name="ScrollEnabled" value="true" />    
+    <plugin name="cordova-plugin-qrscanner" />  
+    <plugin name="cordova-plugin-camera-preview" spec="https://github.com/diogenesjup/diogenes-camera-preview.git" />
+
+
+
     
     <preference name="WKWebViewOnly" value="true" />
     <feature name="CDVWKWebViewEngine">
@@ -57,8 +86,8 @@
     </feature>
 
     <!-- CORRIGINDO PROBLEMAS ANDROID X -->
-    <!--<plugin name="cordova-plugin-androidx" />
-    <plugin name="cordova-plugin-androidx-adapter" />-->
+    <plugin name="cordova-plugin-androidx" />
+    <plugin name="cordova-plugin-androidx-adapter" />
 
     <icon src="www/assets/images/icones/225.png" />
 
