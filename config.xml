@@ -13,7 +13,9 @@
     <author href="https://www.diogenesjunior.com.br/" email="contato@diogenesjunior.com.br">
         Diogenes Junior
     </author>
- 
+    
+    <engine name="android" spec="^8.0.0" />
+    
     <preference name="permissions"                value="none"/>
     <preference name="orientation"                value="portrait" />       
     <preference name="target-device"              value="handset" />       
