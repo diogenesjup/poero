@@ -1,14 +1,15 @@
 {
   "name": "com.diogenesjunior.poero",
   "version": "1.0.0",
-  "description": "Feliz 8 meses de namoro",
+  "description": "Feliz 1 ano de namoro",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "appflow:build": "cordova telemetry on"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diogenesjup/Aplicativo-Mercado-Justo.git"
+    "url": "git+https://github.com/diogenesjup/poero/.git"
   },
   "keywords": [
     "Diogenes Junior"
@@ -16,7 +17,7 @@
   "author": "Diogenes Junior",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/diogenesjup/Aplicativo-Mercado-Justo/issues"
+    "url": "https://github.com/diogenesjup/poero/issues"
   },
-  "homepage": "https://github.com/diogenesjup/Aplicativo-Mercado-Justo#readme"
+  "homepage": "https://github.com/diogenesjup/poero/#readme"
 }
