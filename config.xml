@@ -39,15 +39,15 @@
     <preference name="FadeSplashScreen" value="false"/>
     <preference name="FadeSplashScreenDuration" value="1200"/>
     
-    <!--<preference name="android-minSdkVersion" value="29" />
-    <preference name="android-targetSdkVersion" value="32" />-->
+    <preference name="android-minSdkVersion" value="29" />
+    <preference name="android-targetSdkVersion" value="32" />
    
     <plugin name="cordova-plugin-android-permissions" />
  
     <plugin name="cordova-plugin-statusbar" />
 
     <plugin name="cordova-plugin-wkwebview-engine" />
-    <plugin name="cordova-plugin-wkwebview-file-xhr"  source="npm" /> 
+    <plugin name="cordova-plugin-wkwebview-file-xhr" /> 
     
     <preference name="WKWebViewOnly" value="true" />
     <feature name="CDVWKWebViewEngine">
