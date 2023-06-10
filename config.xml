@@ -14,7 +14,7 @@
         Diogenes Junior
     </author>
     
-    <engine name="android" spec="^8.0.0" />
+    <engine name="android" spec="^6.0.0" />
 
     <preference name="permissions"                value="none"/>
     <preference name="orientation"                value="portrait" />       
