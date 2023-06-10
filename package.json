@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "test",
-    "appflow:build": "cordova telemetry on"
+    "appflow:build": "cordova telemetry off"
   },
   "repository": {
     "type": "git",
